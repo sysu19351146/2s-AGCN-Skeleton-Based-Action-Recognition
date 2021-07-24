@@ -18,4 +18,12 @@ pytorch 1.8.1  <br>
 训练和测试：
 ==
 
+* 训练 <br>
+  `python main.py --config ./config/nturgbd-cross-view/test_joint.yaml`
+  `python main.py --config ./config/nturgbd-cross-view/test_bone.yaml`
+
+* 测试  <br>
+  `python main.py --config ./config/nturgbd-cross-view/train_joint.yaml`
+  `python main.py --config ./config/nturgbd-cross-view/train_bone.yaml`
+
 
