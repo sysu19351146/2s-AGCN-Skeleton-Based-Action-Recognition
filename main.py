@@ -544,7 +544,12 @@ class Processor():
                     break
 
                 self.train(epoch, save_model=True)   #训练
+                self.eval(
+                    epoch,
+                    save_score=self.arg.save_score,
+                    loader_name=['test'])
 
+            print('best accuracy: ', self.best_acc, ' model_name: ', self.arg.model_saved_name)  #打印准确率以及模型名称
 
 
         #测试部分
