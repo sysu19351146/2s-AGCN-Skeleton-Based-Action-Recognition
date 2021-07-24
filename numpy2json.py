@@ -11,7 +11,7 @@ class NumpyArrayEncoder(JSONEncoder):
 
 
 # Serialization
-dir = 'data1/'
+dir = 'raw_npy_data/'
 datasets = ['val', 'train']
 folders = ['000', '001', '002', '003', '004']
 
