@@ -10,11 +10,11 @@ pytorch 1.8.1  <br>
 --
 * npy数据转json文件  <br>
       `python numpy2json.py`     
-* 数据处理  <br>
+* 数据处理  (注意要使用cd改变当前路径)<br>
       `cd data_gen`<br>
       `python kinetics_gendata.py`<br>
       `cd ..`<br>
-* 生成bone的数据  <br>
+* 生成bone的数据 (注意要使用cd改变当前路径)  <br>
       `cd data_gen`<br>
       `python gen_bone_data.py`<br>
       `cd ..`<br>
