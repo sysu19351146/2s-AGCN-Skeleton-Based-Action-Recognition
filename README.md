@@ -26,7 +26,7 @@ pytorch 1.8.1  <br>
   `python main.py --config ./config/kinetics-skeleton/train_joint.yaml`<br>
   `python main.py --config ./config/kinetics-skeleton/train_bone.yaml` <br>
 * 整合  <br>
-  `python numpy2json.py`     
+  `python ensemble.py`     
   
 参考文献：
 ==
