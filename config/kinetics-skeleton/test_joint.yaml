@@ -20,7 +20,7 @@ model_args:
 phase: test
 device: 0
 test_batch_size: 16
-weights: ./pt/005/ki_agcn_joint.pt
+weights: ./pt/ki_agcn_joint.pt
 
 
 work_dir: ./work_dir/kinetics/agcn_joint_test
