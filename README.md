@@ -33,7 +33,8 @@ pytorch 1.8.1  <br>
   `python main.py --config ./config/kinetics-skeleton/train_joint.yaml`<br>
   `python main.py --config ./config/kinetics-skeleton/train_bone.yaml` <br>
   再整合： <br>
-  `python ensemble.py` 
+  `python ensemble.py` <br>
+  
 参考文献：
 --
 [1] Shi L , Zhang Y , Cheng J , et al. Two-Stream Adaptive Graph Convolutional Networks for Skeleton-Based Action Recognition[J]. 2018. <br>
