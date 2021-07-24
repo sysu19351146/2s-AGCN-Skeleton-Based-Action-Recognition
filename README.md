@@ -19,11 +19,11 @@ pytorch 1.8.1  <br>
 ==
 
 * 训练 <br>
-  `python main.py --config ./config/nturgbd-cross-view/test_joint.yaml`
-  `python main.py --config ./config/nturgbd-cross-view/test_bone.yaml`
+  `python main.py --config ./config/nturgbd-cross-view/test_joint.yaml`<br>
+  `python main.py --config ./config/nturgbd-cross-view/test_bone.yaml` <br>
 
 * 测试  <br>
-  `python main.py --config ./config/nturgbd-cross-view/train_joint.yaml`
-  `python main.py --config ./config/nturgbd-cross-view/train_bone.yaml`
+  `python main.py --config ./config/nturgbd-cross-view/train_joint.yaml`<br>
+  `python main.py --config ./config/nturgbd-cross-view/train_bone.yaml` <br>
 
 
