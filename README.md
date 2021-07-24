@@ -30,8 +30,8 @@ pytorch 1.8.1  <br>
   
 * 整个测试流程: <br>
   先分别test： <br>
-  `python main.py --config ./config/kinetics-skeleton/train_joint.yaml`<br>
-  `python main.py --config ./config/kinetics-skeleton/train_bone.yaml` <br>
+  `python main.py --config ./config/kinetics-skeleton/test_joint.yaml`<br>
+  `python main.py --config ./config/kinetics-skeleton/test_bone.yaml` <br>
   再整合： <br>
   `python ensemble.py` <br>
   
