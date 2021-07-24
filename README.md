@@ -9,7 +9,9 @@ pytorch 1.8.1  <br>
 数据准备
 ==
 * npy数据转json文件  <br>
+     '''python
       python numpy2json.py
+      '''
 * 数据处理  <br>
       python data_gen/kinetics_gendata.py
 * 生成bone的数据  <br>
